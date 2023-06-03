@@ -8215,8 +8215,8 @@ a:hover {
 /* 帧率检测 */
 #fps {
   position: fixed;
-  margin-left: 175px;
-  margin-top: 11px;
+  margin-left: 31px;
+  margin-top: 53px;
   /* left: 50; */
   /* bottom: 960px; */
   z-index: 1919810;
