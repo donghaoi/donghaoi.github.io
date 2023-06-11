@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://blog.donghao.ltd/social/fcircle/index.html</loc>
+    <loc>https://blog.donghao.ltd/site/time/index.html</loc>
     
     <lastmod>2023-05-25</lastmod>
     
@@ -74,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://blog.donghao.ltd/site/time/index.html</loc>
+    <loc>https://blog.donghao.ltd/social/fcircle/index.html</loc>
     
     <lastmod>2023-05-25</lastmod>
     
@@ -137,7 +137,7 @@
   </url>
   
   <url>
-    <loc>https://blog.donghao.ltd/box/nav/index.html</loc>
+    <loc>https://blog.donghao.ltd/box/gallery/index.html</loc>
     
     <lastmod>2023-05-25</lastmod>
     
@@ -146,7 +146,7 @@
   </url>
   
   <url>
-    <loc>https://blog.donghao.ltd/box/gallery/index.html</loc>
+    <loc>https://blog.donghao.ltd/box/nav/index.html</loc>
     
     <lastmod>2023-05-25</lastmod>
     
@@ -182,7 +182,7 @@
   </url>
   
   <url>
-    <loc>https://blog.donghao.ltd/census/index.html</loc>
+    <loc>https://blog.donghao.ltd/charts/index.html</loc>
     
     <lastmod>2022-09-10</lastmod>
     
@@ -191,7 +191,7 @@
   </url>
   
   <url>
-    <loc>https://blog.donghao.ltd/charts/index.html</loc>
+    <loc>https://blog.donghao.ltd/census/index.html</loc>
     
     <lastmod>2022-09-10</lastmod>
     
@@ -216,6 +216,13 @@
   </url>
   
   <url>
+    <loc>https://blog.donghao.ltd/tags/python/</loc>
+    <lastmod>2023-06-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.donghao.ltd/tags/Markdown/</loc>
     <lastmod>2023-06-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -230,7 +237,7 @@
   </url>
   
   <url>
-    <loc>https://blog.donghao.ltd/tags/python/</loc>
+    <loc>https://blog.donghao.ltd/tags/python%E6%95%B0%E6%8D%AE%E5%88%87%E7%89%87/</loc>
     <lastmod>2023-06-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -238,13 +245,6 @@
   
   <url>
     <loc>https://blog.donghao.ltd/tags/Mysql/</loc>
-    <lastmod>2023-06-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.donghao.ltd/tags/python%E6%95%B0%E6%8D%AE%E5%88%87%E7%89%87/</loc>
     <lastmod>2023-06-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -267,14 +267,14 @@
   </url>
   
   <url>
-    <loc>https://blog.donghao.ltd/categories/Markdown/</loc>
+    <loc>https://blog.donghao.ltd/categories/python/</loc>
     <lastmod>2023-06-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.donghao.ltd/categories/python/</loc>
+    <loc>https://blog.donghao.ltd/categories/Markdown/</loc>
     <lastmod>2023-06-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
