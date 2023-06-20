@@ -4,6 +4,56 @@
   
     
     <entry>
+      <title>python连接数据库</title>
+      <link href="/posts/20230007.html"/>
+      <url>/posts/20230007.html</url>
+      
+        <content type="html"><![CDATA[<h1>使用python连接mysql数据库并通过语句查询数据</h1><div class="tabs" id="分栏"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#分栏-1">代码</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="分栏-1"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> pymysql <span class="keyword">import</span> *</span><br><span class="line"></span><br><span class="line"><span class="comment"># 打开数据库连接</span></span><br><span class="line">db = connect(host=<span class="string">&#x27;127.0.0.1&#x27;</span>, port=<span class="number">3306</span>, user=<span class="string">&#x27;root&#x27;</span>, password=<span class="string">&#x27;123456&#x27;</span>, database=<span class="string">&#x27;flight_archive&#x27;</span>,charset=<span class="string">&#x27;utf8&#x27;</span>)</span><br><span class="line"><span class="comment"># 使用cursor()方法获取操作游标</span></span><br><span class="line">cursor = db.cursor()</span><br><span class="line"><span class="comment"># SQL 查询语句</span></span><br><span class="line">sql = <span class="string">&quot;SELECT * FROM flight_archive.flight;&quot;</span></span><br><span class="line"><span class="comment"># 执行SQL语句</span></span><br><span class="line">cursor.execute(sql)</span><br><span class="line"><span class="comment"># 获取所有记录列表</span></span><br><span class="line">results = cursor.fetchall()</span><br><span class="line"><span class="comment"># 遍历取数据</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> results:</span><br><span class="line">    ids = i[<span class="number">0</span>]</span><br><span class="line">    <span class="built_in">print</span>(ids)</span><br><span class="line">db.close()</span><br><span class="line"></span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> python </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> python连接数据库 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>接口自动化测试</title>
+      <link href="/posts/20230004.html"/>
+      <url>/posts/20230004.html</url>
+      
+        <content type="html"><![CDATA[<h1>1. requests常用请求方式</h1><div class="tabs" id="分栏"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#分栏-1">请求方式</button></li><li class="tab"><button type="button" data-href="#分栏-2">注意事项</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="分栏-1"><table><thead><tr><th>请求方法</th><th>备注</th></tr></thead><tbody><tr><td>requests.get()</td><td>发送get请求</td></tr><tr><td>requests.post()</td><td>发送post请求</td></tr><tr><td>requests.delete()</td><td>发送delete请求</td></tr><tr><td>requests.put()</td><td>发送put请求</td></tr><tr><td>requests.request()</td><td>最核心的方法</td></tr></tbody></table><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="分栏-2"><ol><li>get请求通过params传递参数</li><li>post请求通过json或者data传参，他们的区别是什么?<br><span style="color:red;">data:</span><br>     数据报文: 如果是字典类型，那么默认情况下请求头：application/x-www-form-urlencoded  表示以form表单的方式传参，格式: a=1&amp;b=2&amp;c=3<br>     数据报文: 如果是str类型，那么默认情况下：text/plain(如果是字典格式需要转换成str格式传参)<br><span style="color:red;">json:</span><br>     数据报文: 不管是dict还是str类型，默认都是application/json，格式：{“a”:1,“b”:2}</li><li>总结:<br>     data只能传简单的只有键值对的dict或者是str格式。<br>     json一般只能够传字典格式，不管是简单还是复杂嵌套的都可以。<br>     文件上传通过files传参<br>     cookie鉴权：网页接口基本上都要做cookie鉴权。这种不常用，一般通过session实现cookie鉴权，这种常用。</li></ol><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><h1>2. response常用数据返回方法</h1><table><thead><tr><th>请求方法</th><th>备注</th></tr></thead><tbody><tr><td>rep = requests.request()</td><td></td></tr><tr><td>print(rep.txt)</td><td>返回字符串的数据</td></tr><tr><td>print(rep.content)</td><td>返回字节格式的数据</td></tr><tr><td>print(rep.json())</td><td>返回字典格式的数据</td></tr><tr><td>print(rep.status_code)</td><td>返回状态码</td></tr><tr><td>print(rep.reason)</td><td>返回状态信息</td></tr><tr><td>print(rep.cookies)</td><td>返回cookie信息</td></tr><tr><td>print(rep.encoding)</td><td>返回编码格式</td></tr><tr><td>print(rep.headers)</td><td>返回响应头信息</td></tr></tbody></table>]]></content>
+      
+      
+      <categories>
+          
+          <category> 测试 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 接口自动化测试 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>python数据切片</title>
       <link href="/posts/20230006.html"/>
       <url>/posts/20230006.html</url>
@@ -71,31 +121,6 @@
         <tags>
             
             <tag> python </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>接口自动化测试</title>
-      <link href="/posts/20230004.html"/>
-      <url>/posts/20230004.html</url>
-      
-        <content type="html"><![CDATA[<h1>等待更新</h1>]]></content>
-      
-      
-      <categories>
-          
-          <category> 测试 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 接口自动化测试 </tag>
             
         </tags>
       

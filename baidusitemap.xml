@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.donghao.ltd/posts/20230007.html</loc>
+    <lastmod>2023-06-20</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.donghao.ltd/posts/20230004.html</loc>
+    <lastmod>2023-06-19</lastmod>
+  </url>
+  <url>
     <loc>https://blog.donghao.ltd/posts/20230006.html</loc>
     <lastmod>2023-06-08</lastmod>
   </url>
@@ -10,10 +18,6 @@
   </url>
   <url>
     <loc>https://blog.donghao.ltd/posts/20230003.html</loc>
-    <lastmod>2023-06-01</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.donghao.ltd/posts/20230004.html</loc>
     <lastmod>2023-06-01</lastmod>
   </url>
   <url>
