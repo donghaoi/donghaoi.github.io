@@ -2559,7 +2559,7 @@ if ((lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "十五")) {
 if ((lunar["IMonthCn"] == "五月" && lunar["IDayCn"] == "初五")) {
   //端午节
   if (sessionStorage.getItem("isPopupWindow") != "1") {
-    Swal.fire("端午节快乐\n请你吃一条粽子🍙");
+    Swal.fire("端午节快乐\n请你吃一个粽子🍙");
     sessionStorage.setItem("isPopupWindow", "1");
   }
 }
