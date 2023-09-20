@@ -15,8 +15,6 @@ html, body, .wrap {
   align-items: center;
   justify-content: space-between;
   padding: 4%;
-  width: 1290px;
-  height: 200px;
 }
 .wrap .key {
   width: 4%;
