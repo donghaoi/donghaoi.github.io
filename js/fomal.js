@@ -3165,10 +3165,10 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://imgs.donghao.ltd/background.jpg);
-    --darkmode-bg:url(https://imgs.donghao.ltd/background.jpg);
-    --mobileday-bg: url(https://imgs.donghao.ltd/background.jpg);
-    --mobilenight-bg: url(https://imgs.donghao.ltd/background.jpg);
+    --default-bg: url(https://donghaoblog-1312747716.cos.ap-beijing.myqcloud.com/img/background.jpg);
+    --darkmode-bg:url(https://donghaoblog-1312747716.cos.ap-beijing.myqcloud.com/img/background.jpg);
+    --mobileday-bg: url(https://donghaoblog-1312747716.cos.ap-beijing.myqcloud.com/img/background.jpg);
+    --mobilenight-bg: url(https://donghaoblog-1312747716.cos.ap-beijing.myqcloud.com/img/background.jpg);
   }`;
 }
 // 切换背景主函数

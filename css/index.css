@@ -7779,7 +7779,7 @@ input#pic-link {
 
 /* heo 加载动画头像 */
 .loading-img {
-  background: url(https://imgs.donghao.ltd/touxiang.webp)
+  background: url(https://donghaoblog-1312747716.cos.ap-beijing.myqcloud.com/img/touxiang.webp)
     no-repeat center center;
   background-size: cover;
 }
