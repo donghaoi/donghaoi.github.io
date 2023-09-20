@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body, .wrap {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: rgba(0, 0, 0, 0);
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4%;
+  width: 1290px;
+  height: 200px;
+}
+.wrap .key {
+  width: 4%;
+  aspect-ratio: 1;
+  border: 4px solid #000;
+  transform: rotate(45deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: width 0.3s, height 0.3s, background-color 0.3s;
+}
+.wrap .key::before {
+  content: "";
+  display: block;
+  width: 65%;
+  height: 65%;
+  background: #ec555c;
+  transition: width 0.3s, height 0.3s, background-color 0.3s;
+}
+.wrap .key.playing {
+  width: 6%;
+}
+.wrap .key.playing::before {
+  width: 40%;
+  height: 40%;
+}
+.wrap .key.playing:nth-child(1n)::before {
+  background: #4fdbb4;
+}
+.wrap .key.playing:nth-child(2n)::before {
+  background: #de5577;
+}
+.wrap .key.playing:nth-child(3n)::before {
+  background: #a671c4;
+}
+.wrap .key.playing:nth-child(4n)::before {
+  background: #79688c;
+}
+.wrap .key.playing:nth-child(5n)::before {
+  background: #80aae5;
+}
+.wrap .key.playing:nth-child(6n)::before {
+  background: #8fe7bf;
+}
+
+/*# sourceMappingURL=index.css.map */
