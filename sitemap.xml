@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.donghao.ltd/life/music/index.html</loc>
+    
+    <lastmod>2023-09-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.donghao.ltd/life/games/index.html</loc>
     
     <lastmod>2023-09-21</lastmod>
@@ -14,15 +23,6 @@
     <loc>https://blog.donghao.ltd/site/time/index.html</loc>
     
     <lastmod>2023-09-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.donghao.ltd/life/music/index.html</loc>
-    
-    <lastmod>2023-09-20</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://blog.donghao.ltd/personal/love/index.html</loc>
+    <loc>https://blog.donghao.ltd/personal/bb/index.html</loc>
     
     <lastmod>2023-09-19</lastmod>
     
@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://blog.donghao.ltd/personal/bb/index.html</loc>
+    <loc>https://blog.donghao.ltd/personal/love/index.html</loc>
     
     <lastmod>2023-09-19</lastmod>
     
@@ -101,7 +101,7 @@
   </url>
   
   <url>
-    <loc>https://blog.donghao.ltd/box/nav/index.html</loc>
+    <loc>https://blog.donghao.ltd/box/gallery/index.html</loc>
     
     <lastmod>2023-09-19</lastmod>
     
@@ -110,7 +110,7 @@
   </url>
   
   <url>
-    <loc>https://blog.donghao.ltd/box/gallery/index.html</loc>
+    <loc>https://blog.donghao.ltd/box/nav/index.html</loc>
     
     <lastmod>2023-09-19</lastmod>
     
@@ -209,7 +209,7 @@
   </url>
   
   <url>
-    <loc>https://blog.donghao.ltd/census/index.html</loc>
+    <loc>https://blog.donghao.ltd/charts/index.html</loc>
     
     <lastmod>2022-09-10</lastmod>
     
@@ -218,7 +218,7 @@
   </url>
   
   <url>
-    <loc>https://blog.donghao.ltd/charts/index.html</loc>
+    <loc>https://blog.donghao.ltd/census/index.html</loc>
     
     <lastmod>2022-09-10</lastmod>
     
@@ -236,20 +236,6 @@
 
   
   <url>
-    <loc>https://blog.donghao.ltd/tags/html%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2023-09-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.donghao.ltd/tags/%E6%8E%A5%E5%8F%A3%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2023-09-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.donghao.ltd/tags/Markdown/</loc>
     <lastmod>2023-09-21</lastmod>
     <changefreq>weekly</changefreq>
@@ -264,7 +250,21 @@
   </url>
   
   <url>
+    <loc>https://blog.donghao.ltd/tags/html%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2023-09-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.donghao.ltd/tags/Mysql/</loc>
+    <lastmod>2023-09-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.donghao.ltd/tags/%E6%8E%A5%E5%8F%A3%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2023-09-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -294,20 +294,6 @@
 
   
   <url>
-    <loc>https://blog.donghao.ltd/categories/HTML/</loc>
-    <lastmod>2023-09-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.donghao.ltd/categories/%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2023-09-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.donghao.ltd/categories/Markdown/</loc>
     <lastmod>2023-09-21</lastmod>
     <changefreq>weekly</changefreq>
@@ -315,7 +301,21 @@
   </url>
   
   <url>
+    <loc>https://blog.donghao.ltd/categories/HTML/</loc>
+    <lastmod>2023-09-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.donghao.ltd/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
+    <lastmod>2023-09-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.donghao.ltd/categories/%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2023-09-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
