@@ -1,16 +1,16 @@
 const tones = [
-  new Audio('mu/1.G++.MP3'),
-  new Audio('mu/2.F++.MP3'),
-  new Audio('mu/3.E++.MP3'),
-  new Audio('mu/4.D++.MP3'),
-  new Audio('mu/5.C++.MP3'),
-  new Audio('mu/6.B+.MP3'),
-  new Audio('mu/7.A+.MP3'),
-  new Audio('mu/8.G+.MP3'),
-  new Audio('mu/9.F+.MP3'),
-  new Audio('mu/10.E+.MP3'),
-  new Audio('mu/11.D+.MP3'),
-  new Audio('mu/12.C+.MP3'),
+  new Audio('mu/1.G++.mp3'),
+  new Audio('mu/2.F++.mp3'),
+  new Audio('mu/3.E++.mp3'),
+  new Audio('mu/4.D++.mp3'),
+  new Audio('mu/5.C++.mp3'),
+  new Audio('mu/6.B+.mp3'),
+  new Audio('mu/7.A+.mp3'),
+  new Audio('mu/8.G+.mp3'),
+  new Audio('mu/9.F+.mp3'),
+  new Audio('mu/10.E+.mp3'),
+  new Audio('mu/11.D+.mp3'),
+  new Audio('mu/12.C+.mp3'),
 ]
 const makeSound = (index) => {
   const target = document.querySelector(`.key:nth-child(${index+1})`)
