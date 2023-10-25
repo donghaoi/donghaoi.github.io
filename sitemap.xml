@@ -101,6 +101,15 @@
   </url>
   
   <url>
+    <loc>https://blog.donghao.ltd/box/nav/index.html</loc>
+    
+    <lastmod>2023-10-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.donghao.ltd/box/animation/index.html</loc>
     
     <lastmod>2023-10-11</lastmod>
@@ -111,15 +120,6 @@
   
   <url>
     <loc>https://blog.donghao.ltd/box/gallery/index.html</loc>
-    
-    <lastmod>2023-10-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.donghao.ltd/box/nav/index.html</loc>
     
     <lastmod>2023-10-11</lastmod>
     
@@ -264,14 +264,14 @@
   </url>
   
   <url>
-    <loc>https://blog.donghao.ltd/tags/python%E7%AC%94%E8%AE%B0/</loc>
+    <loc>https://blog.donghao.ltd/tags/%E6%8E%A5%E5%8F%A3%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2023-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.donghao.ltd/tags/%E6%8E%A5%E5%8F%A3%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/</loc>
+    <loc>https://blog.donghao.ltd/tags/python%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2023-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -315,14 +315,14 @@
   </url>
   
   <url>
-    <loc>https://blog.donghao.ltd/categories/python/</loc>
+    <loc>https://blog.donghao.ltd/categories/%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2023-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.donghao.ltd/categories/%E6%B5%8B%E8%AF%95/</loc>
+    <loc>https://blog.donghao.ltd/categories/python/</loc>
     <lastmod>2023-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
