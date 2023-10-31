@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.donghao.ltd/posts/20230011.html</loc>
+    
+    <lastmod>2023-10-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.donghao.ltd/posts/20230010.html</loc>
     
     <lastmod>2023-10-31</lastmod>
@@ -20,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://blog.donghao.ltd/social/link/index.html</loc>
+    <loc>https://blog.donghao.ltd/social/fcircle/index.html</loc>
     
     <lastmod>2023-10-11</lastmod>
     
@@ -29,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://blog.donghao.ltd/social/fcircle/index.html</loc>
+    <loc>https://blog.donghao.ltd/social/link/index.html</loc>
     
     <lastmod>2023-10-11</lastmod>
     
@@ -218,7 +227,7 @@
   </url>
   
   <url>
-    <loc>https://blog.donghao.ltd/charts/index.html</loc>
+    <loc>https://blog.donghao.ltd/census/index.html</loc>
     
     <lastmod>2022-09-10</lastmod>
     
@@ -227,7 +236,7 @@
   </url>
   
   <url>
-    <loc>https://blog.donghao.ltd/census/index.html</loc>
+    <loc>https://blog.donghao.ltd/charts/index.html</loc>
     
     <lastmod>2022-09-10</lastmod>
     
@@ -243,6 +252,13 @@
     <priority>1.0</priority>
   </url>
 
+  
+  <url>
+    <loc>https://blog.donghao.ltd/tags/html%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2023-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
   <url>
     <loc>https://blog.donghao.ltd/tags/Mysql/</loc>
@@ -267,13 +283,6 @@
   
   <url>
     <loc>https://blog.donghao.ltd/tags/%E6%8E%A5%E5%8F%A3%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2023-10-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.donghao.ltd/tags/html%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2023-10-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -307,7 +316,21 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://blog.donghao.ltd/tags/%E4%BB%80%E4%B9%88%E6%98%AF%E8%B7%A8%E5%9F%9F%EF%BC%9F%E8%B7%A8%E5%9F%9F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</loc>
+    <lastmod>2023-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
+  
+  <url>
+    <loc>https://blog.donghao.ltd/categories/HTML/</loc>
+    <lastmod>2023-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
   <url>
     <loc>https://blog.donghao.ltd/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
@@ -325,13 +348,6 @@
   
   <url>
     <loc>https://blog.donghao.ltd/categories/%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2023-10-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.donghao.ltd/categories/HTML/</loc>
     <lastmod>2023-10-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
