@@ -6,7 +6,7 @@
   <link href="https://blog.donghao.ltd/atom.xml" rel="self"/>
   
   <link href="https://blog.donghao.ltd/"/>
-  <updated>2023-10-31T11:45:00.000Z</updated>
+  <updated>2023-11-01T02:48:00.000Z</updated>
   <id>https://blog.donghao.ltd/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>跨网段如何设置路由器访问</title>
+    <link href="https://blog.donghao.ltd/posts/20230012.html"/>
+    <id>https://blog.donghao.ltd/posts/20230012.html</id>
+    <published>2023-11-01T02:48:00.000Z</published>
+    <updated>2023-11-01T02:48:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="1-基础命令">1. 基础命令</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">添加路由:route add 网段 mask 掩码 网关 metric 活跃点(优先级)[可省略] <span class="keyword">if</span> 网关接口号码 [可省略]</span></span><br><span class="line">route add 157.0.0.0 mask 255.0.0.0 157.55.80.1 metric 3 if 2</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">修改路由</span></span><br><span class="line">route change 157.0.0.0 mask 255.0.0.0 157.55.80.5 metric 2 if 2</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">删除路由</span></span><br><span class="line">route delete 157.0.0.0</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">查询路由</span></span><br><span class="line">route print</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">查询路由：匹配157网段的</span></span><br><span class="line">route print 157*</span><br></pre></td></tr></table></figure><h2 id="2-添加路由作用">2. 添加路由作用</h2><ul><li>给不同的网段分配不同的网关，类似于路标，指引网络传递方向。</li></ul><h2 id="3-实战操作">3. 实战操作</h2><ul><li>需要添加的内网网段：192.168.0.88</li><li>需要添加的内网网关：192.168.0.1</li></ul><p>路由配置：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">临时路由 电脑重启后会失效</span></span><br><span class="line">route add 192.168.0.88 mask 255.0.0.0 192.168.0.1 </span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">永久路由 电脑重启后不失效</span></span><br><span class="line">route -p add 192.168.0.88 mask 255.0.0.0 192.168.0.1</span><br></pre></td></tr></table></figure><p>致此，跨网段设置路由器访问就配置完成啦！！！</p>]]></content>
+    
+    
+    <summary type="html">🍁主要目的是让我们的电脑能同时访问内网不同的网段</summary>
+    
+    
+    
+    <category term="网络知识" scheme="https://blog.donghao.ltd/categories/%E7%BD%91%E7%BB%9C%E7%9F%A5%E8%AF%86/"/>
+    
+    
+    <category term="跨网段设置路由器访问命令" scheme="https://blog.donghao.ltd/tags/%E8%B7%A8%E7%BD%91%E6%AE%B5%E8%AE%BE%E7%BD%AE%E8%B7%AF%E7%94%B1%E5%99%A8%E8%AE%BF%E9%97%AE%E5%91%BD%E4%BB%A4/"/>
+    
+  </entry>
   
   <entry>
     <title>什么是跨域？跨域解决方法是什么？</title>
@@ -123,8 +144,8 @@
   
   <entry>
     <title>接口自动化测试</title>
-    <link href="https://blog.donghao.ltd/posts/20230004.html"/>
-    <id>https://blog.donghao.ltd/posts/20230004.html</id>
+    <link href="https://blog.donghao.ltd/posts/20230006.html"/>
+    <id>https://blog.donghao.ltd/posts/20230006.html</id>
     <published>2023-06-19T02:38:00.000Z</published>
     <updated>2023-06-19T02:38:00.000Z</updated>
     
@@ -144,8 +165,8 @@
   
   <entry>
     <title>python数据切片</title>
-    <link href="https://blog.donghao.ltd/posts/20230006.html"/>
-    <id>https://blog.donghao.ltd/posts/20230006.html</id>
+    <link href="https://blog.donghao.ltd/posts/20230005.html"/>
+    <id>https://blog.donghao.ltd/posts/20230005.html</id>
     <published>2023-06-08T01:55:00.000Z</published>
     <updated>2023-06-08T01:55:00.000Z</updated>
     
@@ -165,8 +186,8 @@
   
   <entry>
     <title>python数据可视化</title>
-    <link href="https://blog.donghao.ltd/posts/20230005.html"/>
-    <id>https://blog.donghao.ltd/posts/20230005.html</id>
+    <link href="https://blog.donghao.ltd/posts/20230004.html"/>
+    <id>https://blog.donghao.ltd/posts/20230004.html</id>
     <published>2023-06-07T10:17:00.000Z</published>
     <updated>2023-06-07T10:17:00.000Z</updated>
     
