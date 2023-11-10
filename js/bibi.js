@@ -3,8 +3,8 @@ let total = 0
 let nowNum = 0
 let items = []
 let page = 1
-let Url = 'https://kkapi.fomal.cc/api/ispeak?author=6319fedef46fae97dcfa5ee2&page=' // 记住替换为你的API链接
-
+let Url = 'https://m.leonus.cn/api/v1/memo?creatorId=1&tag=%E8%AF%B4%E8%AF%B4&limit=10' // 记住替换为你的API链接
+// https://kkapi.fomal.cc/api/ispeak?author=6319fedef46fae97dcfa5ee2&page=
 
 window.addEventListener('DOMContentLoaded', () => {
     getNew();
