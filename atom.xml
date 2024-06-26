@@ -6,7 +6,7 @@
   <link href="https://blog.donghao.ltd/atom.xml" rel="self"/>
   
   <link href="https://blog.donghao.ltd/"/>
-  <updated>2024-05-15T08:15:00.000Z</updated>
+  <updated>2024-06-26T14:15:00.000Z</updated>
   <id>https://blog.donghao.ltd/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Python永久更改镜像源</title>
+    <link href="https://blog.donghao.ltd/posts/20230017.html"/>
+    <id>https://blog.donghao.ltd/posts/20230017.html</id>
+    <published>2024-06-26T14:15:00.000Z</published>
+    <updated>2024-06-26T14:15:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<div class="tip info"><p>以下配置的是清华源,可自行更改源地址！</p></div><h1>python配置永久镜像源</h1><p>1.打开cmd窗口或进入命令行模式<br>2.依次输入以下指令</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">cd %APPDATA%</span><br><span class="line">rmdir /s/q pip</span><br><span class="line">md pip</span><br><span class="line">cd pip</span><br><span class="line">(echo [global]</span><br><span class="line">echo timeout = 6000</span><br><span class="line">echo index-url = https://pypi.tuna.tsinghua.edu.cn/simple</span><br><span class="line">echo trusted-host = pypi.tuna.tsinghua.edu.cn)&gt;pip.ini</span><br></pre></td></tr></table></figure><p>3.关闭cmd窗口或命令行模式，重新启动pycharm或代码编译工具就可以高速下载python第三方库啦</p>]]></content>
+    
+    
+    <summary type="html">🍑配置后可以高速的pip install 第三方库啦</summary>
+    
+    
+    
+    <category term="python" scheme="https://blog.donghao.ltd/categories/python/"/>
+    
+    
+    <category term="python更改镜像源" scheme="https://blog.donghao.ltd/tags/python%E6%9B%B4%E6%94%B9%E9%95%9C%E5%83%8F%E6%BA%90/"/>
+    
+  </entry>
   
   <entry>
     <title>linux系统硬盘挂载/扩容</title>

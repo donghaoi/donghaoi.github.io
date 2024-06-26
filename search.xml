@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Python永久更改镜像源</title>
+      <link href="/posts/20230017.html"/>
+      <url>/posts/20230017.html</url>
+      
+        <content type="html"><![CDATA[<div class="tip info"><p>以下配置的是清华源,可自行更改源地址！</p></div><h1>python配置永久镜像源</h1><p>1.打开cmd窗口或进入命令行模式<br>2.依次输入以下指令</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">cd %APPDATA%</span><br><span class="line">rmdir /s/q pip</span><br><span class="line">md pip</span><br><span class="line">cd pip</span><br><span class="line">(echo [global]</span><br><span class="line">echo timeout = 6000</span><br><span class="line">echo index-url = https://pypi.tuna.tsinghua.edu.cn/simple</span><br><span class="line">echo trusted-host = pypi.tuna.tsinghua.edu.cn)&gt;pip.ini</span><br></pre></td></tr></table></figure><p>3.关闭cmd窗口或命令行模式，重新启动pycharm或代码编译工具就可以高速下载python第三方库啦</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> python </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> python更改镜像源 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>linux系统硬盘挂载/扩容</title>
       <link href="/posts/20230016.html"/>
       <url>/posts/20230016.html</url>
